@@ -34,7 +34,7 @@ mongoose.connect(dbConfig.url, {
 
 // default route
 app.get("/", (req, res) => {
-  res.send(  "Node.js Restful CRUD API with Node.js, Express and MongoDB." );
+  res.send(  "Welcome,Node.js Restful CRUD API with Node.js, Express and MongoDB." );
 });
 //require routes
 require("./app/routes/tutorials.routes")(app);
